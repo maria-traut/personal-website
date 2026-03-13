@@ -1,0 +1,15 @@
+head {
+  display: flex;
+}
+
+h1 {
+  color: #cd0000;
+}
+
+p {
+  color: #7a378b;
+}
+
+body {
+  background-color: slateblue;
+}
