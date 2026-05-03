@@ -1,106 +1,78 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>this is me</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <h1 class="header__heading">hi, i'm maria</h1>
-      <h2 class="header__subheading">web developer to be</h2>
-    </header>
-    <nav class="navbar">
-      <ul class="menu">
-        <li><a href="#">home</a></li>
-        <li><a href="#">projects</a></li>
-        <li><a href="#">about me</a></li>
-        <li><a href="#">contact</a></li>
-      </ul>
-    </nav>
+export default function Main() {
+  return (
     <main>
-      <section class="card" id="top">
-        <h2 class="card__heading">first chapter</h2>
+      <section className="card" id="top">
+        <h2 className="card__heading">first chapter</h2>
         <span
-          class="big-emoji__lemon"
+          className="big-emoji__lemon"
           role="img"
           aria-label="A lemon that indicates a bookmark"
-          >🍋</span
         >
-        <p class="card__text">
+          🍋
+        </span>
+        <p className="card__text">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias vitae
           libero harum! Odit consequatur veritatis, hic qui, facere distincLorem
           ipsum dolor sit, veritatis, hic qui, facere distincorem ipsum dolor
           sit, amet consectetur adipisicing elit. Alias vitae libero harum! Odit
           consequatur veritatis, hic qui, facere distinc
         </p>
-        <button type="button">i'm a button!</button>
+        <button type="button">Click me!</button>
       </section>
-      <section class="card" id="top">
-        <h2 class="card__heading">second chapter</h2>
+      <section className="card" id="top">
+        <h2 className="card__heading">second chapter</h2>
         <span
-          class="big-emoji__lemon"
+          className="big-emoji__lemon"
           role="img"
           aria-label="A lemon that indicates a bookmark"
-          >🍋</span
         >
-        <p class="card__text">
+          🍋
+        </span>
+        <p className="card__text">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias vitae
           libero harum! Odit consequatur veritatis, hic qui, facere distincLorem
           ipsum dolor sit, veritatis, hic qui, facere distincorem ipsum dolor
           sit, amet consectetur adipisicing elit. Alias vitae libero harum! Odit
           consequatur veritatis, hic qui, facere distinc
         </p>
-        <button type="button">i'm a button!</button>
+        <button type="button">Click me!</button>
       </section>
-      <section class="card" id="top">
-        <h2 class="card__heading">third chapter</h2>
+      <section className="card" id="top">
+        <h2 className="card__heading">third chapter</h2>
         <span
-          class="big-emoji__lemon"
+          className="big-emoji__lemon"
           role="img"
           aria-label="A lemon that indicates a bookmark"
-          >🍋</span
         >
-        <p class="card__text">
+          🍋
+        </span>
+        <p className="card__text">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias vitae
           libero harum! Odit consequatur veritatis, hic qui, facere distincLorem
           ipsum dolor sit, veritatis, hic qui, facere distincorem ipsum dolor
           sit, amet consectetur adipisicing elit. Alias vitae libero harum! Odit
           consequatur veritatis, hic qui, facere distinc
         </p>
-        <button type="button">i'm a button!</button>
+        <button type="button">Click me!</button>
       </section>
-      <section class="card" id="top">
-        <h2 class="card__heading">fourth chapter</h2>
+      <section className="card" id="top">
+        <h2 className="card__heading">fourth chapter</h2>
         <span
-          class="big-emoji__lemon"
+          className="big-emoji__lemon"
           role="img"
           aria-label="A lemon that indicates a bookmark"
-          >🍋</span
         >
-        <p class="card__text">
+          🍋
+        </span>
+        <p className="card__text">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias vitae
           libero harum! Odit consequatur veritatis, hic qui, facere distincLorem
           ipsum dolor sit, veritatis, hic qui, facere distincorem ipsum dolor
           sit, amet consectetur adipisicing elit. Alias vitae libero harum! Odit
           consequatur veritatis, hic qui, facere distinc
         </p>
-        <button type="button">i'm a button!</button>
+        <button type="button">Click me!</button>
       </section>
     </main>
-    <footer>
-      <p>meet me on</p>
-      <ul>
-        <li><a href="https://github.com/maria-traut">github</a></li>
-        <li>
-          <a href="https://www.linkedin.com/in/maria-t-47b666354/">LinkedIn</a>
-        </li>
-      </ul>
-      <form>
-        <label for="input">input</label>
-        <input id="input" type="text" />
-      </form>
-    </footer>
-  </body>
-</html>
+  );
+}
