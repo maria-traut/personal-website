@@ -5,7 +5,9 @@ export default function Navigation() {
     <nav className="navbar">
       <ul className="menu">
         <li>
-          <a href="#">home</a>
+          <a href="#" className="active">
+            home
+          </a>
         </li>
         <li>
           <a href="#">projects</a>

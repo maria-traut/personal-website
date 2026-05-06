@@ -1,0 +1,59 @@
+.track-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.track-search__label {
+  font-family: garamond sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #002147;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.track-search__input {
+  border-radius: 15px;
+  border: 2px solid salmon;
+  background-color: rgb(247, 176, 211);
+  width: 100%;
+  max-width: 200px;
+  padding: 10px 20px;
+  margin-bottom: 1rem;
+}
+
+.track-search__input:focus-visible {
+  outline: none;
+  border: 3px solid hotpink;
+  background-color: white;
+}
+
+.track-search__found-songs {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+.track-search__found-song {
+  font-family: garamond sans-serif;
+}
+
+.track-search__title {
+  font-family: garamond sans-serif;
+}
+
+.track-search__audio {
+  background-color: salmon;
+  border-radius: 15px;
+}
+
+.new {
+  background-color: hotpink;
+  padding: 10px 30px;
+  color: white;
+  font-weight: 700;
+  margin-top: 2rem;
+  border-radius: 15px;
+}
